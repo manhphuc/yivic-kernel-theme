@@ -1,1 +1,1 @@
-# WP Theme Yivic Kernel
+# Yivic Kernel Theme
