@@ -1,0 +1,37 @@
+{
+  "name": "yivic/yivic-kernel-theme",
+  "description": "A lightweight, reusable WordPress theme kernel for building scalable and modern Yivic themes.",
+  "type": "wordpress-theme",
+  "license": "GPL-3.0-or-later",
+  "homepage": "https://github.com/manhphuc/yivic-kernel-theme",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Phuc Nguyen",
+      "email": "manhphucofficial@yahoo.com",
+      "homepage": "https://github.com/manhphuc",
+      "role": "Developer"
+    }
+  ],
+  "keywords": [
+    "yivic",
+    "wp-kernel",
+    "wordpress-theme-core",
+    "kernel-theme"
+  ],
+  "require": {
+    "php": ">=7.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Yivic\\YivicKernelTheme\\": "src/"
+    },
+    "files": [
+      "src/helpers.php"
+    ]
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "classmap-authoritative": true
+  }
+}
