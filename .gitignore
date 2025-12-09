@@ -1,0 +1,59 @@
+### Environment
+.env
+.env.*
+!.env.example
+phpcs.cache
+
+### WP-CLI
+wp-cli.local.yml
+
+### PHP & Composer
+/vendor/
+composer.phar
+
+### Node / Package Managers
+/node_modules/
+npm-debug.log*
+yarn-error.log
+pnpm-debug.log
+
+### Build Outputs
+/dist/
+*.zip
+*.tar.gz
+
+### Sass / Cache
+.sass-cache/
+
+### IDE & Editor
+.vscode/
+.idea/
+*.iml
+
+### macOS
+.DS_Store
+__MACOSX/
+
+### Logs
+*.log
+
+### Eclipse / NetBeans / Misc editors
+nbproject/
+.buildpath
+.project
+.settings/
+
+### Prepros / Codekit
+prepros.cfg
+config.codekit
+.codekit-cache/
+
+### OS / Hosting garbage
+Thumbs.db
+
+### Others (optional)
+# Do NOT ignore robots.txt in themes/plugins
+# /robots.txt
+
+# Probably not needed unless hosting generates it
+# /cgi-bin
